@@ -1,0 +1,39 @@
+{
+  "name": "oneday-onekara",
+  "version": "1.0.0",
+  "description": "Social Networks posts for Karaoke Mugen",
+  "main": "dist/index.js",
+  "repository": "https://lab.shelter.moe/karaokemugen/oneday-onekara.git",
+  "author": "Guillaume Lebigot <axel@teri-chan.net>",
+  "license": "MIT",
+  "homepage": "https://mugen.karaokes.moe",
+  "scripts": {
+    "start": "ts-node src/index.ts --",
+    "build": "rm -Rf dist && tsc --build"
+  },
+  "bugs": {
+    "url": "https://lab.shelter.moe/karaokemugen/oneday-onekara/issues",
+    "email": "axel@teri-chan.net"
+  },
+  "engines": {
+    "node": ">=10.11.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "@types/lodash.sample": "^4.2.7",
+    "@types/lodash.shuffle": "^4.2.7",
+    "@types/node": "18",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "got": "^11.8.2",
+    "js-yaml": "^4.1.0",
+    "lodash.sample": "^4.2.1",
+    "masto": "^5.11.3",
+    "twitter-api-v2": "^1.15.0"
+  }
+}

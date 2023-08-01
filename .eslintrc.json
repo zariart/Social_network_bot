@@ -1,0 +1,35 @@
+{
+    "globals": {
+		"__": true
+    },
+    "env": {
+        "es6": true,
+		"node": true
+    },
+    "rules": {
+		"detect-object-injection": 0,
+	    "brace-style": [
+            "error",
+            "1tbs"
+        ],
+        "no-console": 0,
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-throw-literal": "off"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2020
+    }
+}

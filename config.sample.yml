@@ -1,0 +1,16 @@
+Mastodon:
+  AccessToken: xxx
+  URL: https://shelter.moe
+KMServer:
+  URL: https://kara.moe
+Facebook:
+  appID: xxx
+  appSecret: xxx
+  pageID: xxx
+  accessToken: xxx
+Twitter:
+  Auth:
+    consumer_key: xxx
+    consumer_secret: xxx
+    access_token: xxx
+    access_token_secret: xxx
